@@ -1,0 +1,137 @@
+body{
+	background-color:  #e8eded ;
+}
+#head{
+	margin:40px 110px 0px 110px;
+}
+
+ul {
+	border-radius: 7px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #616A6B;
+}
+	li {
+    float: left;
+    
+}
+li a:hover{
+	color: lightgreen;
+	opacity: 0.85;
+}
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container{
+	  margin-left: 100px;
+	  margin-right: 100px;
+   
+}
+.left{
+float: left;
+	width:69%;
+    padding: 5px 0px 30px 0px; 
+
+
+}
+
+article h1{
+
+color:orange;
+}
+article h5{
+
+color:  #bfc9ca ;
+}
+
+
+.lefttop{
+	background-color: white;
+    border-radius: 10px;  
+    padding: 25px 10px 30px 10px; 
+	border: 1px solid gray;
+	margin: 10px;		
+
+}
+.leftbottom{
+	background-color: white;
+    border-radius: 10px;  
+    padding: 25px 10px 30px 10px; 
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+.right{
+
+	float: left;
+	width: 31%;
+ margin: 5px 0px 30px 0px; 
+ 
+}
+.utte{
+
+	margin:10px;
+    padding: 25px 10px 10px 5px; 
+	background-color: white;
+    border-radius: 10px;  
+	border: 1px solid gray;
+	
+}
+
+.vich{
+	
+background-color: white;
+    border-radius: 10px;  
+    padding: 25px 10px 30px 10px; 
+	border: 1px solid gray;
+	margin:10px;
+    
+}
+.thalle{
+	background-color: white;
+    border-radius: 10px;  
+    padding: 25px 10px 30px 10px; 
+
+	border: 1px solid gray;
+	margin:10px;
+	
+    
+}
+.footer {
+
+	float: left;
+	padding: 10px;
+ width: 98%;
+   margin: 0px 5px 1px 1px;  
+    background-color: #616A6B;
+   color: white;
+}
+.footer span{
+	color: orange;	
+}
+
+
+@media only screen and (max-width: 1000px) {
+    div * {
+        width: 100%;
+    }
+    .right{
+    width: 95%;
+    height:75%;
+  	
+    }
+    
+.left{
+
+	width: 96%;
+	height: 95%;
+}
+}
